@@ -23,6 +23,7 @@ header nav{
 header nav .navbar{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
     height: 100%;
 }
@@ -36,13 +37,55 @@ header nav .navbar-right ul li{
     margin: 0 10px;
 }
 header nav .navbar-right ul li a{
-    color: #fff;
+    color: black;
+    font-size: 20px;
     text-decoration: none;
+    border: none;
+    
 }
-header nav .navbar-left{}
+header nav .navbar-left{
+    display: flex;
+    align-items: center;
+}
 header nav .navbar-left ul{
 display: flex;
+margin-left: 50px;
 }
-header nav .navbar-left ul li img{
+header nav .navbar-left ul li{
+    margin: 0 10px;
+}
+header nav .navbar-left ul li a{
+    text-decoration: none;
+}
+header nav .navbar-left ul li a svg{
+    font-size: 20px;
+    color: black;
+}
+header nav .navbar-left img{
     width: 80px;
+}
+header #slide{
+    background-image: url('../images/slide.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+}
+header #slide .slider{
+    width: 100%;
+    height: 900px;
+    position: relative;
+}
+header #slide .slider .slide-description{
+    position: absolute;
+    left:10% ;
+    top: 40%;
+}
+header #slide .slider .slide-description h1{
+    font-size: 120px;
+    margin-right: 300px;
+    color:#505050 ;
+}
+header #slide .slider .slide-description h2{
+    font-size: 90px;
+    color: #222222;
 }
