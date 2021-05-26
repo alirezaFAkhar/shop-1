@@ -119,6 +119,7 @@ header #slide .slider span {
 #hanging-lamp .hanging-lamp .hanging-right {
   display: flex;
   background-color: white;
+  width: 65%;
 }
 #hanging-lamp .hanging-lamp .hanging-right img {
   width: 500px;
@@ -134,7 +135,8 @@ header #slide .slider span {
 #hanging-lamp .hanging-lamp .hanging-right .description-right p {
   margin-top: 50px;
   font-size: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+  line-height: 30px;
 }
 #hanging-lamp .hanging-lamp .hanging-right .description-right a {
   text-decoration: none;
@@ -147,6 +149,8 @@ header #slide .slider span {
 #hanging-lamp .hanging-lamp .hanging-left {
   display: flex;
   align-items: center;
+  width: 35%;
+  text-align: center;
 }
 #hanging-lamp .hanging-lamp .hanging-left .desctiption-left {
   width: 100%;
@@ -156,6 +160,119 @@ header #slide .slider span {
   margin-top: 10px;
 }
 #hanging-lamp .hanging-lamp .hanging-left h2 {
+  font-size: 40px;
+  margin-top: 20px;
+}
+/* hanging-lamp-two */
+#hanging-lamp-two {
+  width: 100%;
+  height: 700px;
+  position: relative;
+}
+#hanging-lamp-two .test-two {
+  background-image: url(../images/hang.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 1px;
+  right: 0;
+  bottom: 0;
+  left: 36.6%;
+}
+#hanging-lamp-two .hangin-lamp-two {
+  display: flex;
+}
+#hanging-lamp-two .hangin-lamp-two .hang-two-right {
+  width: 65%;
+  height: 600px;
+}
+#hanging-lamp-two .hangin-lamp-two .hang-two-left {
+  width: 35%;
+  height: 600px;
+}
+#hanging-lamp-two .hangin-lamp-two .hang-two-left ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+#hanging-lamp-two .hangin-lamp-two .hang-two-left ul li {
+  width: 50%;
+  margin-bottom: 30px;
+}
+#hanging-lamp-two .hangin-lamp-two .hang-two-left ul li img {
+  width: 200px;
+  height: 260px;
+}
+#hanging-lamp-two .hangin-lamp-two .hang-two-left ul li h3 {
+  margin: 10px;
+}
+/* sofa */
+#sofa {
+  width: 100%;
+  background-color: #294152;
+  position: relative;
+}
+#sofa .sofa-cover {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: white;
+  bottom: 0;
+  right: 94.5%;
+}
+#sofa .sofa {
+  display: flex;
+  justify-content: space-between;
+}
+#sofa .sofa .sofa-left {
+  display: flex;
+  background-color: white;
+  width: 65%;
+  justify-content: space-between;
+}
+#sofa .sofa .sofa-left .img-right img {
+  width: 350px;
+  height: 250px;
+}
+#sofa .sofa .sofa-left .description-right {
+  position: relative;
+  padding: 20px 40px;
+}
+#sofa .sofa .sofa-left .description-right h1 {
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+#sofa .sofa .sofa-left .description-right p {
+  margin-top: 50px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  line-height: 30px;
+}
+#sofa .sofa .sofa-left .description-right a {
+  text-decoration: none;
+  background-color: #c56211;
+  padding: 10px 15px;
+  color: #ffff;
+  position: absolute;
+  left: 20px;
+  bottom: 2px;
+}
+#sofa .sofa .sofa-right {
+  display: flex;
+  align-items: center;
+  width: 35%;
+  text-align: center;
+  color: #ffff;
+}
+#sofa .sofa .sofa-right .desctiption-left {
+  width: 100%;
+}
+#sofa .sofa .sofa-right h1 {
+  font-size: 40px;
+  margin-top: 10px;
+}
+#sofa .sofa .sofa-right h2 {
   font-size: 40px;
   margin-top: 20px;
 }
