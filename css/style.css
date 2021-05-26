@@ -173,10 +173,10 @@ header #slide .slider span {
   background-image: url(../images/hang.jpg);
   background-size: cover;
   position: absolute;
-  top: 1px;
+  top: 0px;
   right: 0;
   bottom: 0;
-  left: 36.6%;
+  left: 36.4%;
 }
 #hanging-lamp-two .hangin-lamp-two {
   display: flex;
@@ -232,7 +232,7 @@ header #slide .slider span {
 }
 #sofa .sofa .sofa-left .img-right img {
   width: 350px;
-  height: 250px;
+  height: 300px;
 }
 #sofa .sofa .sofa-left .description-right {
   position: relative;
@@ -256,7 +256,7 @@ header #slide .slider span {
   color: #ffff;
   position: absolute;
   left: 20px;
-  bottom: 2px;
+  bottom: 30px;
 }
 #sofa .sofa .sofa-right {
   display: flex;
@@ -275,4 +275,72 @@ header #slide .slider span {
 #sofa .sofa .sofa-right h2 {
   font-size: 40px;
   margin-top: 20px;
+}
+/* sofa-two */
+#sofa-two {
+  width: 100%;
+  height: 700px;
+  position: relative;
+}
+#sofa-two .test-two {
+  background-image: url(../images/5.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  bottom: 0;
+  right: 36.4%;
+}
+#sofa-two .sofa-two {
+  display: flex;
+}
+#sofa-two .sofa-two .sofa-two-right {
+  width: 65%;
+  height: 600px;
+}
+#sofa-two .sofa-two .sofa-two-left {
+  width: 35%;
+  height: 600px;
+}
+#sofa-two .sofa-two .sofa-two-left ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+#sofa-two .sofa-two .sofa-two-left ul li {
+  width: 50%;
+  margin-bottom: 30px;
+}
+#sofa-two .sofa-two .sofa-two-left ul li img {
+  width: 250px;
+  height: 260px;
+}
+#sofa-two .sofa-two .sofa-two-left ul li h3 {
+  margin: 10px;
+}
+
+/* counters */
+#counters {
+  width: 100%;
+  background-color: #9acafc;
+  padding: 120px 0;
+}
+#counters .counters {
+  width: 100%;
+  display: flex;
+}
+#counters .counters .counters-item {
+  width: 25%;
+  text-align: center;
+}
+#counters .counters .counters-item svg {
+  font-size: 40px;
+}
+#counters .counters .counters-item .counter {
+  margin: 50px 0;
+  font-size: 25px;
+}
+#counters .counters .counters-item h5 {
+  font-size: 20px;
 }
