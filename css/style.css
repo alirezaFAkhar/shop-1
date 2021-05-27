@@ -12,13 +12,31 @@ body {
 .container {
   width: 1700px;
   margin: auto;
+  padding: 0 15px;
 }
+/* responseve */
+
+.hamburger-icon {
+  width: 50%;
+  display: none;
+}
+.hamburger-icon img {
+  width: 50px;
+}
+
+#responsive-navigation {
+  display: none;
+}
+
+/* responsive */
+
 header {
   width: 100%;
 }
 header nav {
   width: 100%;
   height: 70px;
+  display: flex;
 }
 header nav .navbar {
   display: flex;
@@ -68,6 +86,7 @@ header #slide {
   background-size: cover;
   width: 100%;
   height: 900px;
+  display: flex;
 }
 header #slide .slider {
   width: 100%;
@@ -103,6 +122,7 @@ header #slide .slider span {
   width: 100%;
   background-color: #c56211;
   position: relative;
+  display: flex;
 }
 #hanging-lamp .test {
   position: absolute;
@@ -168,8 +188,9 @@ header #slide .slider span {
   width: 100%;
   height: 700px;
   position: relative;
+  display: flex;
 }
-#hanging-lamp-two .test-two {
+#hanging-lamp-two .hanging-two-cover {
   background-image: url(../images/hang.jpg);
   background-size: cover;
   position: absolute;
@@ -211,6 +232,7 @@ header #slide .slider span {
   width: 100%;
   background-color: #294152;
   position: relative;
+  display: flex;
 }
 #sofa .sofa-cover {
   position: absolute;
@@ -281,6 +303,7 @@ header #slide .slider span {
   width: 100%;
   height: 700px;
   position: relative;
+  display: flex;
 }
 #sofa-two .test-two {
   background-image: url(../images/5.jpg);
@@ -325,6 +348,7 @@ header #slide .slider span {
   width: 100%;
   background-color: #9acafc;
   padding: 120px 0;
+  display: flex;
 }
 #counters .counters {
   width: 100%;
@@ -343,4 +367,41 @@ header #slide .slider span {
 }
 #counters .counters .counters-item h5 {
   font-size: 20px;
+}
+/* footer */
+#footer {
+  background-color: #202020;
+  padding: 80px 0;
+  display: flex;
+}
+#footer .footer {
+  text-align: center;
+  width: 100%;
+}
+#footer .footer h2 {
+  color: #ffff;
+  margin-bottom: 20px;
+}
+#footer .footer ul {
+  display: flex;
+  justify-content: center;
+}
+#footer .footer ul li {
+  margin: 0 10px;
+}
+#footer .footer ul li a {
+  color: #ffff;
+}
+#footer .footer ul li a svg {
+  font-size: 18px;
+}
+#footer .footer .footer-desc {
+  border-top: 1px solid #131313;
+  padding-top: 40px;
+  width: 450px;
+  margin: 40px auto;
+}
+#footer .footer .footer-desc p {
+  line-height: 25px;
+  color: #ffff;
 }
