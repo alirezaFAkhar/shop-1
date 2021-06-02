@@ -123,6 +123,7 @@ header #slide .slider span {
   background-color: #c56211;
   position: relative;
   display: flex;
+  z-index: -2;
 }
 #hanging-lamp .test {
   position: absolute;
@@ -131,6 +132,7 @@ header #slide .slider span {
   background-color: white;
   bottom: 0;
   left: 90%;
+  z-index: -1;
 }
 #hanging-lamp .hanging-lamp {
   display: flex;
@@ -204,11 +206,11 @@ header #slide .slider span {
 }
 #hanging-lamp-two .hangin-lamp-two .hang-two-right {
   width: 65%;
-  height: 600px;
+  height: 700px;
 }
 #hanging-lamp-two .hangin-lamp-two .hang-two-left {
   width: 35%;
-  height: 600px;
+  height: 700px;
 }
 #hanging-lamp-two .hangin-lamp-two .hang-two-left ul {
   width: 100%;
@@ -233,6 +235,7 @@ header #slide .slider span {
   background-color: #294152;
   position: relative;
   display: flex;
+  z-index: -2;
 }
 #sofa .sofa-cover {
   position: absolute;
@@ -241,6 +244,7 @@ header #slide .slider span {
   background-color: white;
   bottom: 0;
   right: 94.5%;
+  z-index: -1;
 }
 #sofa .sofa {
   display: flex;
@@ -319,11 +323,11 @@ header #slide .slider span {
 }
 #sofa-two .sofa-two .sofa-two-right {
   width: 65%;
-  height: 600px;
+  height: 700px;
 }
 #sofa-two .sofa-two .sofa-two-left {
   width: 35%;
-  height: 600px;
+  height: 700px;
 }
 #sofa-two .sofa-two .sofa-two-left ul {
   width: 100%;
